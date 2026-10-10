@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --color-brand: #ee0000;
+  --color-hairline: #dadada;
+  --color-quiet: #6a6a6a;
+  --color-surface: #f4f4f4;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-weight: 400;
+}
+
+.tracking-hero {
+  letter-spacing: 0.36px;
+}
+
+::selection {
+  background: #000000;
+  color: #ffffff;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Thin, unobtrusive scrollbars matching the minimal aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #dadada;
+}
